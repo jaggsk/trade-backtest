@@ -12,8 +12,8 @@ def get_version(package):
 #with open("README.rst", "r") as fh:
 #    long_description = fh.read()
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
+#with open('requirements.txt') as f:
+#    required = f.read().splitlines()
 
 version = get_version('trade_backtest')
 
