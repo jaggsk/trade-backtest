@@ -12,8 +12,8 @@ def get_version(package):
 #with open("README.rst", "r") as fh:
 #    long_description = fh.read()
 
-#with open('requirements.txt') as f:
-#    required = f.read().splitlines()
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
 
 version = get_version('trade_backtest')
 
@@ -32,7 +32,7 @@ setup(
     author='Kevin Jaggs',
     license='MIT',
     author_email='kevin.jaggs@gmail.com',
-    #install_requires=[required],
+    install_requires=[required],
     #keywords='',
     classifiers=[
         #'Intended Audience :: Developers',
